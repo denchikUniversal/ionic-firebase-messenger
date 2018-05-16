@@ -1,0 +1,44 @@
+page-home {
+    .bg{
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(145deg, #7d99c8 35%, #bef6f0 70%);
+        .head{
+            position: absolute;
+            display: block;
+            color: #fff;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            h1{
+                font-size:7vh;
+                margin-top: 0;
+            }
+            h5{
+                font-size: 2vh;
+            }
+        }
+        .inputs{
+            position: absolute;
+            display: block;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            color: #fff;
+            button{
+                margin-top: 20px;
+            }
+        }
+        ion-item{
+            background: transparent;
+            ion-input{
+                color: #fff;
+            }
+            ion-label{
+                color: #fff!important;
+            }
+        }
+    }
+}
